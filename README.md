@@ -1,6 +1,6 @@
 # OMARCHY VM for UTM
 
-A pre-configured Arch Linux virtual machine for UTM, ready to use with minimal setup.
+A pre-configured OMARCHY virtual machine for UTM - a beautiful and productive Linux distribution designed for software developers, featuring Hyprland tiling window manager and a curated set of development tools.
 
 ## 🚀 Quick Start
 
@@ -55,22 +55,30 @@ The VM includes two user accounts:
 
 This OMARCHY VM comes pre-configured with:
 
-- **Base System:** Arch Linux (latest)
-- **Desktop Environment:** [Specify if any - e.g., GNOME, KDE, XFCE, or minimal]
+- **Base System:** OMARCHY (based on Arch Linux)
+- **Window Manager:** Hyprland - A dynamic tiling Wayland compositor
 - **Development Tools:** 
-  - Git
+  - Neovim - Advanced text editor
+  - Git - Version control
+  - Alacritty - GPU-accelerated terminal emulator
   - Base development packages
-  - [List other pre-installed tools]
+- **Productivity Applications:**
+  - Chromium - Web browser
+  - Spotify - Music streaming
+  - Typora - Markdown editor
+  - LibreOffice - Office suite
+  - Zoom - Video conferencing
+- **Design Philosophy:** Terminal-heavy workflow with focus on aesthetics and productivity
 - **Network:** Configured with DHCP
-- **Storage:** [Specify disk size]
+- **Storage:** Optimized for development workloads
 
 ## 🛠️ Configuration
 
 ### VM Specifications
-- **RAM:** [Specify allocated RAM]
-- **CPU Cores:** [Specify number of cores]
-- **Display:** [Specify display settings]
-- **Architecture:** [x86_64 or ARM64]
+- **RAM:** 4GB minimum (8GB recommended for optimal performance)
+- **CPU Cores:** 2 cores minimum (4 cores recommended)
+- **Display:** Configured for Hyprland with hardware acceleration support
+- **Architecture:** x86_64
 
 ### Network Configuration
 The VM is configured to use NAT networking by default. To access the VM via SSH from your host:
@@ -122,18 +130,30 @@ If you want to customize this VM:
 
 ## 📄 License
 
-This VM image is provided as-is for educational and development purposes. Arch Linux and all included software retain their respective licenses.
+This VM image is provided as-is for educational and development purposes. OMARCHY, Arch Linux, and all included software retain their respective licenses.
+
+## 🎨 About OMARCHY
+
+OMARCHY is a customized Linux distribution that prioritizes both aesthetics and productivity. It's designed specifically for software developers who appreciate a beautiful working environment and are willing to embrace a terminal-heavy workflow. The distribution encourages users to step outside their comfort zone and experience a more hands-on approach to computing.
+
+### Key Philosophy
+- **Beauty as Motivation:** A visually appealing environment that inspires productivity
+- **Developer-Focused:** Curated selection of development tools and workflows
+- **Different by Design:** Intentionally distinct from Windows and macOS
+- **Terminal-First:** Embraces command-line efficiency while maintaining visual appeal
 
 ## 🔗 Resources
 
+- [OMARCHY Documentation](https://manuals.omamix.org/2/the-omarchy-manual/91/welcome-to-omarchy)
 - [UTM Documentation](https://docs.getutm.app/)
+- [Hyprland Wiki](https://wiki.hyprland.org/)
 - [Arch Linux Wiki](https://wiki.archlinux.org/)
 - [UTM GitHub Repository](https://github.com/utmapp/UTM)
-- [OMARCHY Project](https://github.com/hjanuschka/OMARCHY-VM-UTM)
+- [OMARCHY VM Project](https://github.com/hjanuschka/OMARCHY-VM-UTM)
 
 ## ⚠️ Disclaimer
 
-This is an unofficial Arch Linux distribution. For official Arch Linux downloads, please visit [archlinux.org](https://archlinux.org/).
+OMARCHY is a customized distribution based on Arch Linux, designed with aesthetics and developer productivity in mind. For official Arch Linux downloads, please visit [archlinux.org](https://archlinux.org/).
 
 ---
 

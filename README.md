@@ -2,6 +2,19 @@
 
 A pre-configured OMARCHY virtual machine for UTM - a beautiful and productive Linux distribution designed for software developers, featuring Hyprland tiling window manager and a curated set of development tools.
 
+## 🚀 Quick Download
+
+### One-Click Install (UTM 4.0+)
+[![Download with UTM](https://img.shields.io/badge/Download%20with-UTM-red?style=for-the-badge&logo=apple)](utm://downloadVM?url=https://github.com/hjanuschka/OMARCHY-VM-UTM/releases/download/v1.0.0/OMARCHY-VM.utm.zip)
+
+Click the button above or use this direct link:
+```
+utm://downloadVM?url=https://github.com/hjanuschka/OMARCHY-VM-UTM/releases/download/v1.0.0/OMARCHY-VM.utm.zip
+```
+
+### Direct Download
+[⬇️ Download OMARCHY-VM.utm.zip](https://github.com/hjanuschka/OMARCHY-VM-UTM/releases/download/v1.0.0/OMARCHY-VM.utm.zip)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -27,21 +40,23 @@ UTM is a powerful virtualization application for macOS and iOS that uses QEMU un
 
 ### Installation
 
+#### Method 1: One-Click Install (Recommended)
+Simply click the [UTM download link](utm://downloadVM?url=https://github.com/hjanuschka/OMARCHY-VM-UTM/releases/download/v1.0.0/OMARCHY-VM.utm.zip) above and UTM will automatically download and import the VM.
+
+#### Method 2: Manual Installation
 1. **Download the VM:**
    - Go to the [Releases](https://github.com/hjanuschka/OMARCHY-VM-UTM/releases) page
-   - Download the latest `OMARCHY-VM.utm.tar.gz` file from the assets
+   - Download the latest `OMARCHY-VM.utm.zip` file
 
-2. **Extract the archive:**
-   ```bash
-   tar -xzf OMARCHY-VM.utm.tar.gz
-   ```
+2. **Extract and Import:**
+   - **Option A:** Double-click the `.utm.zip` file - UTM will automatically import it
+   - **Option B:** Extract manually and import:
+     ```bash
+     unzip OMARCHY-VM.utm.zip
+     ```
+     Then double-click the `.utm` bundle or drag it into UTM
 
-3. **Import into UTM:**
-   - Double-click the extracted `.utm` bundle, OR
-   - Open UTM and drag the `.utm` bundle into the UTM window, OR
-   - In UTM, go to File → Import Virtual Machine
-
-4. **Start the VM:**
+3. **Start the VM:**
    - Select the OMARCHY VM in UTM
    - Click the Play button to start
 

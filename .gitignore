@@ -1,0 +1,17 @@
+# UTM VM Files
+*.utm
+*.utm.zip
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Logs
+*.log

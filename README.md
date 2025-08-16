@@ -29,14 +29,19 @@ UTM is a powerful virtualization application for macOS and iOS that uses QEMU un
 
 1. **Download the VM:**
    - Go to the [Releases](https://github.com/hjanuschka/OMARCHY-VM-UTM/releases) page
-   - Download the latest `.utm` file from the assets
+   - Download the latest `OMARCHY-VM.utm.tar.gz` file from the assets
 
-2. **Import into UTM:**
-   - Double-click the downloaded `.utm` file, OR
-   - Open UTM and drag the `.utm` file into the UTM window, OR
+2. **Extract the archive:**
+   ```bash
+   tar -xzf OMARCHY-VM.utm.tar.gz
+   ```
+
+3. **Import into UTM:**
+   - Double-click the extracted `.utm` bundle, OR
+   - Open UTM and drag the `.utm` bundle into the UTM window, OR
    - In UTM, go to File → Import Virtual Machine
 
-3. **Start the VM:**
+4. **Start the VM:**
    - Select the OMARCHY VM in UTM
    - Click the Play button to start
 

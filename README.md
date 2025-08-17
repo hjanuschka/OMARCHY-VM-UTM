@@ -4,16 +4,10 @@ A pre-configured OMARCHY virtual machine for UTM - a beautiful and productive Li
 
 ## 🚀 Quick Download
 
-### One-Click Install (UTM 4.0+)
-[![Download with UTM](https://img.shields.io/badge/Download%20with-UTM-red?style=for-the-badge&logo=apple)](utm://downloadVM?url=https://github.com/hjanuschka/OMARCHY-VM-UTM/releases/download/v1.0.0/OMARCHY-VM.utm.zip)
-
-Click the button above or use this direct link:
-```
-utm://downloadVM?url=https://github.com/hjanuschka/OMARCHY-VM-UTM/releases/download/v1.0.0/OMARCHY-VM.utm.zip
-```
-
 ### Direct Download
-[⬇️ Download OMARCHY-VM.utm.zip](https://github.com/hjanuschka/OMARCHY-VM-UTM/releases/download/v1.0.0/OMARCHY-VM.utm.zip)
+[⬇️ Download OMARCHY-VM.utm.zip from Archive.org](https://archive.org/download/omarchy-vm.utm/OMARCHY-VM.utm.zip)
+
+The VM file is hosted on Archive.org due to its size (2+ GB).
 
 ## 🚀 Quick Start
 
@@ -40,13 +34,10 @@ UTM is a powerful virtualization application for macOS and iOS that uses QEMU un
 
 ### Installation
 
-#### Method 1: One-Click Install (Recommended)
-Simply click the [UTM download link](utm://downloadVM?url=https://github.com/hjanuschka/OMARCHY-VM-UTM/releases/download/v1.0.0/OMARCHY-VM.utm.zip) above and UTM will automatically download and import the VM.
-
-#### Method 2: Manual Installation
+#### Manual Installation
 1. **Download the VM:**
-   - Go to the [Releases](https://github.com/hjanuschka/OMARCHY-VM-UTM/releases) page
-   - Download the latest `OMARCHY-VM.utm.zip` file
+   - Download from [Archive.org](https://archive.org/download/omarchy-vm.utm/OMARCHY-VM.utm.zip)
+   - The file is approximately 2+ GB in size
 
 2. **Extract and Import:**
    - **Option A:** Double-click the `.utm.zip` file - UTM will automatically import it
